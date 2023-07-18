@@ -55,6 +55,7 @@ nav {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   align-items: center;
+  gap: 15px;
 }
 /* banner section  */
 .banner {
@@ -69,6 +70,7 @@ nav {
   padding-right: 200px;
   margin-top: 100px;
 }
+
 .banner-left {
   padding-top: 108px;
   padding-bottom: 148px;
@@ -81,6 +83,10 @@ nav {
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 10px;
+}
+.banner i{
+  padding-right: 10px;
 }
 .banner-btn {
   margin-top: 41px;
@@ -335,6 +341,9 @@ line-height: normal;
 #mario{
   width: 260px;
 }
+#bird{
+  width: 260px;
+}
 .game1{
   display: flex;
   align-items: center;
@@ -354,7 +363,7 @@ line-height: normal;
 
 /* footer  */
 .footer {
-  height: 300px;
+  height: 250px;
   background: #0b0223;
   color: #fff;
   text-align: center;
@@ -373,7 +382,13 @@ line-height: normal;
   font-size: 18px;
   font-weight: 600;
   gap: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+.footer-icons{
+  padding-bottom: 60px;
+}
+.footer-icons i{
+  padding-right: 30px;
 }
 .policy {
   display: flex;
