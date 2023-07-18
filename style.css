@@ -130,8 +130,8 @@ nav {
 .about img {
   height: 309px;
 }
-.about-text{
-    text-align: right;
+.about-text {
+  text-align: right;
 }
 .about-text h1 {
   text-align: right;
@@ -181,53 +181,87 @@ nav {
   margin: 20px 0px;
 }
 /* funny videos  */
-.funny-videos{
-    margin: 0 240px;
-    text-align: center;
+.funny-videos {
+  margin: 0 240px;
+  text-align: center;
 }
-.funny-videos h1{
-    color: #0B0223;
-font-size: 38px;
-font-weight: 700;
-margin-bottom: 10px;
+.funny-videos h1 {
+  color: #0b0223;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.funny-videos span{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.funny-videos span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.funny-videos h6{
-    color: #534C64;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-margin-bottom: 20px;
+.funny-videos h6 {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 20px;
 }
-.video-card-img{
-    display: flex;
-    height: 300px;
-    gap: 20px;
+.video-card-img {
+  display: flex;
+  height: 300px;
+  gap: 20px;
 }
-.video-card-text{
-    display: flex;
-    text-align: left;
-    color: #534C64;
-font-size: 15px;
-font-weight: 500;
-line-height: 30px; /* 150% */
-gap: 20px;
-
+.video-card-text {
+  display: flex;
+  text-align: left;
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  gap: 20px;
 }
 
 /* feature section */
-.feature-1{
-    display: flex;
-    margin: 0px 240px;
-}
-#angela{
-    
-}
-.feature-2{
+.feature-1 {
   display: flex;
+  margin: 0px 240px;
+}
+.feature-2 {
+  display: flex;
+}
+
+/* footer  */
+.footer {
+  height: 300px;
+  background: #0b0223;
+  color: #fff;
+  text-align: center;
+  padding: 120px 400px;
+}
+#footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.footer-items {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.policy {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
 }
