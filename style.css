@@ -228,6 +228,64 @@ nav {
   display: flex;
 }
 
+/* career section */
+.career{
+  display: flex;
+  height: 650px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  justify-content: flex-end;
+  color: #fff
+}
+.career-img{
+  display: flex;
+  height: 650px;
+}
+.career-texts{
+  max-width: 550px;
+  padding: 50px 0px;
+  padding-left: 240px;
+}
+.career-texts h1{
+  font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+padding-bottom: 10px;
+}
+.career-texts p{
+  font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+padding-bottom: 20px;
+}
+.career-items{
+  display: flex;
+  color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+line-height: 40px; /* 200% */
+padding-bottom: 10px;
+} 
+#item2{
+  padding-left: 70px;
+  text-align: right;
+}
+.career button{
+  border: none;
+padding: 21px 30px;
+border-radius: 48px;
+background: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+color: #FF42A5;
+/* margin-bottom: 50px; */
+}
 /* footer  */
 .footer {
   height: 300px;
