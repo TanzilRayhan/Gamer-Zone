@@ -221,3 +221,13 @@ gap: 20px;
 }
 
 /* feature section */
+.feature-1{
+    display: flex;
+    margin: 0px 240px;
+}
+#angela{
+    
+}
+.feature-2{
+  display: flex;
+}
