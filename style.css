@@ -1,19 +1,55 @@
 /* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
 /* General */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 /* Primary */
-body{
-    margin: 0px 240px;
-}
+/* body {
+  margin: 0px 240px;
+} */
 /* Navigation */
-nav{
-    display: flex;
+nav {
+  display: flex;
+  padding-top: 38px;
+  justify-content: space-between;
+  height: 130px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 0px 240px;
 }
-.logo{
-    display: flex;
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-list li {
+  padding-left: 32px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo img {
+  margin-right: 20px;
+}
+.logo h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.logo span {
+  color: #ff42a5;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  align-items: center;
 }
