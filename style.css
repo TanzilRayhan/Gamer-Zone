@@ -68,7 +68,6 @@ nav {
   height: 450px;
   padding-right: 200px;
   margin-top: 100px;
-  
 }
 .banner-left {
   padding-top: 108px;
@@ -86,23 +85,23 @@ nav {
 .banner-btn {
   margin-top: 41px;
 }
-#sign{
+#sign {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-  margin-right: 20PX;
+  margin-right: 20px;
 }
-#go{
-    color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase;
-background: #4EC5F7;
+#go {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #4ec5f7;
 }
-#play{
+#play {
   color: #0b0223;
   font-size: 48px;
   font-weight: 600;
@@ -116,4 +115,68 @@ background: #4EC5F7;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* about section  */
+.about {
+  padding: 95px 240px;
+  display: flex;
+  height: 450px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.about img {
+  height: 309px;
+}
+.about-text{
+    text-align: right;
+}
+.about-text h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text p {
+  margin: 20px 0px;
+  margin-left: px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.about-text span {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+}
+.about-text h2 {
+  color: #534c64;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 45px;
+}
+#know {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0px;
 }
