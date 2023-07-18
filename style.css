@@ -180,3 +180,44 @@ nav {
   text-transform: uppercase;
   margin: 20px 0px;
 }
+/* funny videos  */
+.funny-videos{
+    margin: 0 240px;
+    text-align: center;
+}
+.funny-videos h1{
+    color: #0B0223;
+font-size: 38px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.funny-videos span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.funny-videos h6{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 20px;
+}
+.video-card-img{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+}
+.video-card-text{
+    display: flex;
+    text-align: left;
+    color: #534C64;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px; /* 150% */
+gap: 20px;
+
+}
+
+/* feature section */
