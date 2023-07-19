@@ -285,7 +285,6 @@ nav {
   align-items: center;
 }
 .feature-2-text {
-
   padding-left: 220px;
   text-align: left;
   font-size: 23px;
@@ -296,7 +295,6 @@ nav {
 .feature-2 h6 {
   padding-top: 20px;
   color: #534c64;
-  /* text-align: left; */
   font-family: Work Sans;
   font-size: 14px;
   font-style: normal;
@@ -380,7 +378,7 @@ nav {
 
 /* games section  */
 .games-bar {
-  padding: 120px 220px;
+  padding: 120px 120px;
   background: rgba(255, 66, 165, 0.03);
 }
 .games {
@@ -393,11 +391,8 @@ nav {
   background: #fff;
   gap: 20px;
   color: #0b0223;
-  font-family: Work Sans;
   font-size: 13px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 #goblin {
   width: 250px;
@@ -409,14 +404,18 @@ nav {
   width: 260px;
 }
 .game1 {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
   align-items: center;
 }
 .game2 {
-  display: flex;
+  /* display: flex; */
   margin-top: 40px;
-  margin-left: 60px;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 40px;
   align-items: center;
 }
 
