@@ -573,32 +573,76 @@ nav {
     flex-direction: column;
   }
   .feature-1 {
-    margin: 10px;
+    margin: 20px;
     flex-direction: column;
+    justify-content: space-around;
   }
   .feature-1-text h1{
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
   }
   .feature-1-text h6{
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+  }
+  #horse{
+    height: 300px;
+  }
+  #angel{
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
   }
   .feature-2 {
+    margin: 20px;
     flex-direction: column;
+    justify-content: space-around;
+  }
+  .feature-2-text h1{
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+  }
+  .feature-2-text h6{
+    text-align: right;
+    padding: 10px;
+  }
+  #king{
+    height: 300px;
+  }
+  #cat{
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    left: 200px;
   }
   .career {
-    /* flex-direction: column; */
-    height: 1905px;
+    flex-direction: column;
+    height: 100%;
+    padding: 2px;
+  }
+  .career-texts{
+    padding: 20px;
+  }
+  .career-img{
+    height: 300px;
+  }
+  .game-bar{
+    padding: 20px;
   }
   .game1 {
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .game2{
+    grid-template-columns: repeat(1, 1fr);
   }
   .footer {
     padding: 20px;
+    height: 100%;
   }
   .footer-items {
     padding: 20px;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
   }
 }
