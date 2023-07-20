@@ -66,6 +66,7 @@ nav {
 .banner {
   /* padding-right: 00px; */
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .banner-bg {
@@ -79,7 +80,7 @@ nav {
 .banner-left {
   padding-top: 108px;
   padding-bottom: 148px;
-  padding-right: 240px;
+  padding-right: 240px;  
   padding-left: 240px;
   background-image: url("images/Group\ 14.png");
   background-repeat: no-repeat;
@@ -131,6 +132,7 @@ nav {
 .about {
   padding: 95px 240px;
   display: flex;
+  justify-content: center;
   height: 450px;
   background: linear-gradient(
     90deg,
@@ -217,6 +219,7 @@ nav {
 }
 .video-card-img {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 .video-card-img img {
@@ -230,6 +233,7 @@ nav {
 }
 .video-card-img p {
   display: flex;
+  justify-content: center;
   text-align: left;
   color: #534c64;
   font-size: 15px;
@@ -241,6 +245,7 @@ nav {
 /* feature section */
 .feature-1 {
   display: flex;
+  justify-content: center;
   margin: 0px 200px;
   margin-top: 100px;
   align-items: center;
@@ -285,6 +290,7 @@ nav {
 }
 .feature-2 {
   display: flex;
+  justify-content: center;
   margin: 0px 200px;
   margin-top: 100px;
   align-items: center;
@@ -409,18 +415,19 @@ nav {
   width: 260px;
 }
 .game1 {
-  /* display: flex; */
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: repeat(5, 1fr); */
   justify-content: center;
   align-items: center;
 }
 .game2 {
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-left: 40px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* margin-left: 40px; */
   align-items: center;
 }
 
@@ -507,10 +514,10 @@ nav {
     align-items: center;
     justify-content: center;
   }
-  .banner-bg{
+  .banner-bg {
     height: 100%;
   }
-  .banner-img{
+  .banner-img {
     height: 100%;
     /* display: none; */
   }
@@ -544,29 +551,28 @@ nav {
     justify-content: center;
     text-align: center;
   }
-  .about-text{
-
+  .about-text {
     text-align: center;
   }
-  .about-text p{
+  .about-text p {
     font-size: 1rem;
     text-align: center;
   }
-  .about-text h1{
+  .about-text h1 {
     font-size: 2.5rem;
     text-align: center;
   }
   .about img {
     height: 100%;
   }
-  .funny-videos{
+  .funny-videos {
     margin: 10px;
   }
-  .funny-videos h6{
+  .funny-videos h6 {
     margin: 20px;
   }
-  .video-card-img p{
-    margin:0px  50px;
+  .video-card-img p {
+    margin: 0px 50px;
   }
   .video-card-img {
     /* padding: 20px; */
@@ -577,19 +583,19 @@ nav {
     flex-direction: column;
     justify-content: space-around;
   }
-  .feature-1-text h1{
+  .feature-1-text h1 {
     font-size: 2rem;
     text-align: left;
     padding: 10px;
   }
-  .feature-1-text h6{
+  .feature-1-text h6 {
     text-align: left;
     padding: 10px;
   }
-  #horse{
+  #horse {
     height: 300px;
   }
-  #angel{
+  #angel {
     height: 200px;
     position: relative;
     bottom: 100px;
@@ -600,19 +606,19 @@ nav {
     flex-direction: column;
     justify-content: space-around;
   }
-  .feature-2-text h1{
+  .feature-2-text h1 {
     font-size: 2rem;
     text-align: right;
     padding: 10px;
   }
-  .feature-2-text h6{
+  .feature-2-text h6 {
     text-align: right;
     padding: 10px;
   }
-  #king{
+  #king {
     height: 300px;
   }
-  #cat{
+  #cat {
     height: 200px;
     position: relative;
     bottom: 100px;
@@ -623,26 +629,41 @@ nav {
     height: 100%;
     padding: 2px;
   }
-  .career-texts{
+  .career-texts {
     padding: 20px;
   }
-  .career-img{
+  .career-img {
     height: 300px;
   }
-  .game-bar{
+  .game-bar {
     padding: 20px;
   }
   .game1 {
-    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr); */
   }
-  .game2{
-    grid-template-columns: repeat(1, 1fr);
+  .game2 {
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr); */
   }
   .footer {
     padding: 20px;
     height: 100%;
   }
+  .footer-icons i {
+    padding: 10px;
+  }
   .footer-items {
-    padding: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .policy {
+    flex-wrap: wrap;
   }
 }
